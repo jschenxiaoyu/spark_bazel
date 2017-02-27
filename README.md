@@ -16,5 +16,6 @@ Build spark application jar:
 cd spark_bazel
 bazel build //:main
 
-spark-submit --class SimpleApp --master local bazel-bin/main.jar
+cd ..
+spark-submit --class SimpleApp --master local spark_bazel/bazel-bin/main.jar
 ```
