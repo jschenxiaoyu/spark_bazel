@@ -2,6 +2,10 @@
 spark example project using bazel build.
 
 # usage
+```
+git clone --recurse-submodules https://github.com/jschenxiaoyu/spark_bazel.git
+```
+
 First, build the spark-all.jar file.
 ```
 cd spark_all_jar
